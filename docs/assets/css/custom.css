@@ -1,0 +1,11 @@
+.md-header {
+    font-weight: bold;
+}
+
+.md-typeset h1 {
+    color: #1565c0;
+}
+
+.md-typeset h2 {
+    border-bottom: 1px solid #ddd;
+}

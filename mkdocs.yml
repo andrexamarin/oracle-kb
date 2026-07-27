@@ -1,0 +1,91 @@
+site_name: Oracle Knowledge Base
+site_description: Base de conocimiento Oracle EBS, Forms, BI Publisher, SQL, PL/SQL y Linux
+site_author: Andrés Ramírez
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+
+  palette:
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - awesome-pages
+  - mermaid2
+  - macros
+  - include-markdown
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+
+  - admonition
+
+  - attr_list
+
+  - md_in_html
+
+  - tables
+
+  - footnotes
+
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.snippets
+
+  - pymdownx.keys
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.emoji
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/custom.js
