@@ -1,6 +1,8 @@
 # Oracle Knowledge Base
 
+
 <div class="grid cards" markdown>
+
 
 -   :material-database:{ .lg .middle } **Oracle Database**
 
@@ -8,7 +10,7 @@
 
     Administración, SQL, performance y troubleshooting.
 
-    [:octicons-arrow-right-24: Ir a sección](02_oracle_database/index.md)
+    [:octicons-arrow-right-24: Ir a sección](02_oracle_database/)
 
 
 -   :material-server:{ .lg .middle } **Oracle EBS**
@@ -19,16 +21,16 @@
 
     Concurrent Programs, APIs, Forms y configuración.
 
-    [:octicons-arrow-right-24: Ir a sección](03_ebs/index.md)
+    [:octicons-arrow-right-24: Ir a sección](03_ebs/)
 
 
 -   :material-file-code:{ .lg .middle } **PL/SQL**
 
     ---
 
-    Packages, procedimientos, funciones y triggers.
+    Packages, procedimientos, triggers y optimización.
 
-    [:octicons-arrow-right-24: Ir a sección](08_plsql/index.md)
+    [:octicons-arrow-right-24: Ir a sección](08_plsql/)
 
 
 -   :material-linux:{ .lg .middle } **Linux**
@@ -37,14 +39,15 @@
 
     Administración de servidores Oracle.
 
-    [:octicons-arrow-right-24: Ir a sección](09_linux/index.md)
+    [:octicons-arrow-right-24: Ir a sección](09_linux/)
+
 
 </div>
 
 
 ---
 
-# Bienvenido
+## Bienvenido
 
 Base de conocimiento técnica para:
 
@@ -60,20 +63,21 @@ Base de conocimiento técnica para:
 
 ---
 
-# Arquitectura
+## Arquitectura
+
 
 ```mermaid
 flowchart LR
 
 USER[Usuario]
 
-WEB[Navegador]
+WEB[Web Browser]
 
 NGINX[Nginx]
 
 MKDOCS[MkDocs]
 
-DOCS[Documentación]
+DOCS[Documentation]
 
 USER --> WEB
 WEB --> NGINX
@@ -85,10 +89,10 @@ MKDOCS --> DOCS
 
 ---
 
-# Estado del proyecto
+## Estado del proyecto
 
 | Módulo | Estado |
-|---|---|
+|-|-|
 | Plataforma | 🟢 Activa |
 | Oracle EBS | 🟡 En construcción |
 | Forms | 🟡 En construcción |
