@@ -1,4 +1,4 @@
-# Index
+# Concurrent Programs
 
 ## Objetivo
 

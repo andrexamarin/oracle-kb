@@ -48,7 +48,6 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - mermaid2
   - macros
   - include-markdown
   - git-revision-date-localized:
@@ -78,7 +77,11 @@ markdown_extensions:
 
   - pymdownx.details
 
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
 
   - pymdownx.highlight:
       anchor_linenums: true
@@ -98,6 +101,7 @@ extra_css:
   - assets/css/custom.css
 
 extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
   - assets/js/custom.js
 
 repo_name: oracle-kb
