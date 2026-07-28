@@ -90,7 +90,7 @@ MKDOCS --> DOCS
 | Módulo | Estado |
 |---|---|
 | Plataforma | 🟢 Activa |
-| Oracle EBS | 🟡 En construcción |
+| Oracle EBS | 🟢 Activa |
 | Forms | 🟡 En construcción |
 | BI Publisher | 🟡 En construcción |
 | Linux | 🟢 Disponible |
